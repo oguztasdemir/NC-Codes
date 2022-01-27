@@ -1,0 +1,753 @@
+Map Sitesi: http://outil.derpolino.shost.ca/imagetfm/#godspaw/
+
+Transformice Arka Plan Renk Kodlar˝:  6a7495  
+
+
+Map Uzatma Kodu:
+
+<C><P L="4600"  defilante="-1,-1,-1,1" /><Z><S /><D /><O /></Z></C>
+
+
+
+
+Spor:
+
+
+@7344520 - Adam Al›ﬂma Map› (K›rm›z›)
+
+@7439560 - Çift Renkli, Korner Kullan›labilen, Otomatik Kap›l›, Girintili Futbol Sahas› (0.5)
+
+@7436016 - Çift Renkli, Korner Kullan›labilen, Kap›l›, Girintili Uzun Futbol Sahas› (0.5)
+
+@7439560 - Çift Renkli, Korner Kullan›labilen, Girintili Uzun Futbol Sahas› (0.5)
+
+@6317233 - Çift Renkli, Korner Kullan›labilen, Girintili Uzun Futbol Sahas› (0.5)
+
+@7334652 - Çift Renkli, Korner Kullan›labilen Uzun Futbol Sahas› (0.5)
+
+@7385224 - Penalt› Sahas›
+
+@6865973 - Çift Renkli, Korneri Gösteren Uzun Futbol Sahas› (0.5)
+
+@7435327 - Çift Renkli, Korner Bayrakl› K›sa Futbol Sahas›(0.5)
+
+@7435313 - Çift Renkli, Korner Bayrakl› Uzun Futbol Sahas› (0.5)
+
+@7435033 - Çift Renkli, Kornerli, Uzun Futbol Sahas› (0.5) (Renkler Orta Sahadan Baﬂl›yor)
+
+@6150633 - Çift Renkli, Kornerli, Uzun Futbol Sahas› (0.5) (Renkler Baﬂtan Baﬂl›yor)
+
+@7434009 - Çift Renkli Futbol Sahas› (0.5)
+
+@6094454 - Çift Renkli Uzun Futbol Sahas› (0.5)
+
+@6137225 - Tek Renkli Futbol Sahas› (0.5)
+
+@7421732 - Çimenli Futbol Sahas›
+
+@7409009 - Engellere Çal›m Atma SahasI
+
+@7355390 - Salçadan Al›nt› 3D Futbol
+
+@7348499 - Salçadan Al›nt› Futbol
+
+@7344534 - Otomatik Kaleli Futbol
+
+@7341903 - Utility'den Al›nt› 3D Futbol
+
+@7214744 - Orijinal K›rm›z› Toplu Futbol Sahas›
+
+@7176847 - Nekodancer Arka Planl› Küçük Futbol 
+
+@7162295 - Otobüslü Futbol Stadyumu
+
+@7150755 - Futbol Tak›m›n› Gösteren Yar› Saha (Lua ile birlikte aç›l›r)
+
+@6862979 - 3D Büyük Kaleli Futbol
+
+@6852807 - Orijinal Orta Sahal› Futbol Sahas› (Orta Saha Arka Plan)
+
+@5604258 - Orta Sahas› Orijinal Futbol Sahas› (Orta Saha ÷n Plan)
+
+@6795348 - En Uzun Ve En Büyük Futbol Sahas›
+
+@6788402 - En Uzun Futbol Sahas›
+
+@6701126 - Büyük Futbol Sahas› (Lua için)
+
+@6479740 - Night Club Futbol Stadyumu (Çift Katl›) 
+
+@6225293 - Ayl›k Sahas›
+
+@7446557 - Serbest Vuruﬂ Geliﬂtirme (Lua için)
+
+@6137197 - Kaleci Geliﬂtirme (Lua için)
+
+@7448390 - Defans Geliﬂtirme
+
+@7446329 - Top Atma Makinesi (Top Atma Sistemi Geliﬂtirilcek)
+
+@7445825 - Top Atma Makinesi (Zeminli Topla)
+
+@6136254 - NC Yaz›l› Futbol Sahas›
+
+@6104915 - 3D Futbol (Top Eklenecek)
+
+@6104428 - Minyatür Mekanizmal› Futbol Sahas›
+
+@5329373 - Night Club Futbol Stadyumu
+
+
+
+
+@7363570 - En Büyük 3D Basketbol Sahas›
+
+@7177777 - Nekodancer Arka Planl›, Orijinal Potal› Basketbol
+
+@6858395 - Çizimli Basketbol (Lua için)
+
+@6857250 - 3D Basketbol (Lua için)
+
+@6846365 - Gerçek Basketbol Toplu Saha
+
+@5705699 - Basketbol Sahas›
+
+@5310834 - Turuncu Sahal› Modül Basketbol Sahas› (Mekanizmal›)
+
+@7346588 - Turuncu Sahal› Modül Basketbol Sahas›
+
+@7355473 - Gece Efektli Modül Basketbol Sahas› (Mekanizmal›)
+
+
+
+
+@7181498 - Plaj Voleybolu (Lua için)
+
+@7177346 - Nekodancer Arka Planl› Küçün Voleybol
+
+@7162488 - ﬁehirli Voleybol (Lua için)
+
+@7162022 - Türk Bayrakl› Küçük Voleybol (Lua için)
+
+@7161511 - Küçük Voleybol (Lua için)
+
+@5247763 - Plaj Voleybolu
+
+
+@7390012 - Buz Hokeyi
+
+@7364635 - Bowling
+
+@6683030 - Tenis
+
+
+
+@7348374 - Salçadan Al›nt› Su Topu
+
+@7248890 - Orijinal Sulu Su Topu
+
+@7160762 - Su Topu (Lua için)
+
+@7160138 - Su Topu (Lua için)
+
+@6595416 - Su Topu Stadyumu (Bitmedi)
+
+@6104855 - Basit Mekanizmal› Su Topu
+
+@5244282 - Emirden Ald›€›m Su Topu
+
+
+
+
+
+
+
+
+
+
+
+
+Ev:
+
+@7448347 - YKR'nin Asansörlü Evi
+
+@7434978 - 3D Büyük Lüks Ev
+
+@7434976 - ﬁömineli, Bahçeli, Merdivenli Ev
+
+@7434972 - Bahçeden Giriﬂli, Bahçesinde Köprülü Ev
+
+@7434971 - Teleferik K›ﬂ Evi
+
+@7434969 - Ou Sitesinden Al›nt› Ev
+
+@7349546 - Do€a Manzaral› Lüks Ev
+
+@7348568 - Küçük Utility Odas›
+
+@7347467 - K›ﬂ Utility Evi
+
+@7346818 - Mekanizma Asansörlü, Yatl› Küçük Ev
+
+@7346808 - Bahçeden Giriﬂli, Yer Alt›nda Odas› Bulunan Utility Evi
+
+@7345593 - Gece Manzaras› Bulunan Büyük Ev
+
+@7345587 - 4 Araba Bulunan Yar›ﬂl›, Sinemal› Büyük Ev
+
+@7345583 - Orijinal Asansörlü, Piyanolu Lüks Ev
+
+@7345581 - Ahﬂap Bulunduran Lüks Ev
+
+@7345564 - Kristal Avizeli, Merdivenli Büyük Ev
+
+@7344602 - ﬁelaleli A€aç Ev
+
+@7344594 - Arka Plan› Do€a Manzaral› Lüks Küçük Ev
+
+@7344546 - ﬁelaleli Balkabak Evi
+
+@7342458 - ﬁeker Diyar›ndaki 3 Odal› Ev
+
+@7342390 - Utility'den Al›nt› Plaj Evi
+
+@7346464 - Wecwecden Al›nt› Ev
+
+@7343450 - Wecwecden Al›nt› Beyaz Merdivenli Ev
+
+@7343429 - Wecwecden Al›nt› Hava Durumunu Gösteren Mavi Ev
+
+@7342452 - Wecwecden Al›nt› Mavi Merdivenli Ev
+
+@7341874 - Wecwecden Al›nt› Su Merdiveni Olan K›rm›z›
+
+@7181086 - Büyük Pembe A€çal› Çin Evi
+
+@7179118 - Havuzlu Büyük Ev
+
+@7177722 - Arka Planl› Do€a Olan Büyük Lüks Ev
+
+@7177720 - 3 Katl› Sahil Evi
+
+@7176720 - Uzay Evi (Yaz› Silinecek)
+
+@7174933 - Gizli Yerden Girilen Ev
+
+@7174918 - A€aç Ev
+
+@7162540 - 6 Odal› Sinemal› Ev
+
+@7162536 - Sinemal› Büyük A€aç Ev
+
+@7162530 - 8 Odal›, Disco Efektli Sinemal›  Ev
+
+@7029315 - Gemi Ev
+
+@7022366 - Ahﬂap Ev (Arka Plan Düzeltilecek)
+
+@6858390 - 801 Arka Planl› Çift Katl› Ev
+
+@6858389 - Ahﬂap Ev
+	
+@6848261 - Suyla Ç›k›lan Uçan Lüks Ev
+
+@6839905 - Nehir Kenar›ndaki Ev
+
+@6839904 - Teleskoplu Ev
+
+@6813261 - Mavi Merdivenli Büyük Ev
+
+@6776472 - Büyük D Amblemli Ev
+
+@6766211 - Büyük Sinemal› Ev
+
+@6759887 - Wecwec'in Maplar›na Benzer Su Merdivenli K›rm›z› Ev
+
+@6758819 - Büyük Kareta Evi
+
+@6505915 - Iﬂ›nlanma Yerli Sinema
+
+@6304004 - Su Merdivenli Büyük Ev
+
+@6120508 - Romantik Bahçeli, Arka Planl›, Çok Odal› Büyük Ev
+
+@6105962 - Karpuz Ev
+
+@6095889 - Gün Bat›ml› Küçük Ev (Resimli)
+
+@6092667 - Vampirimsi Ev
+
+@6108643 - 2 Aslan Dekorlu Sinema Evi
+
+@5531000 - Çat›dan Girilebilen Ev
+
+@5423722 - Büyük Çizimli Lüks Ev
+
+@5320463 - Büyük A€aç Ev
+
+@5310835 - Çizimli Yaz Evi
+
+@5304575 - Su Kayd›rakl› Ev
+
+@5304389 - Çizimli, Ahﬂap Ev
+
+@5291556 - Çin Evi
+
+@5281013 - Hava Durumunu Gösteren Ya€murlu Ev
+
+@5281004 - Neon Ev
+
+@5251946 - Çizimli Büyük Ev
+
+@5249716 - Giriﬂi Güzel, Büyük Merdivenli Lüks Ev
+
+@5248564 - Korku Efektli Ev
+
+@5244767 - Çizimli Büyük Ev
+
+@5229838 - Çizimli K›ﬂ Evi
+
+@5187327 - Merdivenli Küçük Lüks Ev
+
+@5185097 - Helikopterli Ev
+
+@5180570 - Ahﬂap Ev
+
+
+
+
+
+
+
+
+
+
+›˛ Ve Elence Maplar˝:
+
+@7442331 - Lunapark
+
+@7352446 - Büyük Disco
+
+@7346520 - BipBip Diyen Deve Kuﬂu
+
+@7346366 - Salçadan Al›nt› Okul
+
+@7345599 - Mavi-Beyaz A€›rl›kl› Cafe
+
+@7345559 - Spor Salonu
+
+@7345552 - Plajda Disco
+
+@7344585 - Kale
+
+@7344584 - Kumsalda Cafe
+
+@7344581 - Atlantis
+
+@7344565 - Uzay Üssü
+
+@7344529 - Okul
+
+@7343505 - Saydam Merdivenli Büyük Ev
+
+@7342499 - Büfeli Sinema Salonu
+
+@7342492 - Küçük Ekranl› Disco
+
+@7340539 - 1 Dakika Bekleme Süresiyle Aç›lan Do€um Günü Map›
+
+@7179093 - Mac Donald's
+
+@7178985 - 801 Odas› Efektli Okul
+
+@7176822 - Dizaynl› Sinema
+
+@7176674 - Barl› Disco
+
+@7162550 - Renkli Kap›l› Ev
+
+@7162544 - Cad›lar Bayram› Efektli A€aaçl› Kamp
+
+@7162533 - Cehenneme Benzer Zindanl› Yer
+
+@7111602 - Do€um Günü Map›
+
+@7011149 - Arabayla Girilen Holding
+
+@6972615 - Küçük S›n›f
+
+@6863119 - Futbollu Dj'yli Disco
+
+@6860623 - Üstüne Gidince Renk Ç›kan Disco
+
+@6860540 - Hopör Efektli Sinema
+
+@6854016 - Yeﬂil A€›rl›kl› Sinema
+
+@6853966 - Robotlu Sinema
+
+@6853965 - 4 Katl›, Do€a Manzaras› Tablosu Çizimli Lüks Ev
+
+@6844459 - Fare Çizimli Sinema
+
+@6844458 - Çizimli Ambulansl› Hastane
+
+@6844430 - Cad›lar Bayram› Efektli Sinema
+
+@6830268 - O Ses
+
+@6827318 - Araba Yar›ﬂ›
+
+@6827300 - Yetenek Sizsiniz
+
+@6766216 - Hastane
+
+@6761999 - Evlenme Dairesi
+
+@6741730 - Kameral› Sinema (Çift Katl›)
+
+@6558945 - Hareket Eden Toplu Sinema
+
+@6505753 - Al›ﬂveriﬂ Merkezi
+
+@6303907 - Sinema
+
+@6106335 - Asansörlü Otel
+
+@6094299 - Sinemal› Do€um Günü
+
+@6094251 - Romantik Restorand
+
+@6093955 - DJ'yli Disco
+
+@5705805 - Biletli Sinema Yeri
+
+@5336938 - Hayvanl› Sinema
+
+@5327630 - NC Oteli
+
+@5312387 - Büyük Disco
+
+@5311993 - Bar
+
+@5308276 - A€aç Evli Mangal
+
+@5234228 - Hareketli Toplu Disco
+
+@5191483 - Kaykay Pisti
+
+@5187685 - Su Park›
+
+@5183102 - Disco
+
+@5180298 - Okul
+
+@5180112 - Hastane
+
+@7342409 - Deniz Alt›ndaki Gizli Üs
+
+
+
+
+
+
+
+Çizim Maplar›:
+
+@7448346 - Tak›m Otobüsü
+
+@7367217 - Map
+
+@7346764 - Hareketli Tank
+
+@7345604 - Konser 
+
+@7345578 - Uzay Gemisi
+
+@7345575 - Oyuncak Gemili Piknik Yeri
+
+@7345546 - Yanarda€ Vanillas›
+
+@7344525 - Ay›l› Vanilla Map›
+
+@7343461 - NC Büyük Yat›
+
+@7342528 - Uçan NC Gemisi
+
+@7342505 - Romantik Park
+
+@7342488 - Atatürk
+
+@7341899 - Su Alt˝ndaki Gizli Yerli Utility Map›
+
+@7346814 - Mekanizmal› Bahçe
+
+@7247094 - Türk Bayra€›
+
+@7200057 - La€aml›, Fareli Sinema
+
+@7179785 - Tank Resmi
+
+@7195850 - Luayla Aç›l›nca Hareket Eden Korsan Gemisi
+
+@7195955 - Luayla Aç›l›nca Hareket Eden Korsan Gemisi 2
+
+@7180041 - Hareket Etmeyen Korsan Gemisi
+
+@7195811 - Maymun
+
+@7179060 - Köpek
+
+@7352579 - DeadMaze - Ev
+@7179433 - DeadMaze - Çöl
+
+@7179421 - DeadMaze Bodega Bay - Nehir Kenar›
+
+@7179422 - DeadMaze - Yanan ﬁehir
+
+@7179809 - DeadMaze - Ormandan Bak˝lan Yanan ﬁehir
+
+@5304128 - DeadMaze ‹temlerinden Al›nt› Kamp
+
+@6108168 - DeadMaze - Kamp Alan›
+
+@7178981 - DeadMaze - Zombi
+
+@7178941 - Tüm Nekodancer Maplar›n› Gösteren Uzun Map
+
+@7178921 - Tüm Boubom Hayvanlar›n› Gösteren Uzun Map
+
+@7178848 - Night Club Efektli Küçük Disco
+
+@7177734 - Bulutlu Sinema
+
+@7174916 - Çekici
+
+@7163798 - Hamster Topu
+
+@7162546 - At Kafas›
+
+@7162555 - Parçal› Bulutlu Küçük Dinlenme Map›
+
+@7162542 - ‹nternet Kafe
+
+@7162527 - Noel Baban›n Evi
+
+@7013631 - Cad›lar Bayram› Efektli
+
+@6983081 - Kamp
+
+@7162524 - 3 Tane Koﬂma Engelli Çizim
+
+@6872912 - Ateﬂ Ve Su Efektli Yanarda€da Sinema
+
+@7194579 - Karnaval (Etkinlik)
+
+@7180968 - Dinazor (Etkinlik)
+
+@7179987 - Bahçe (Etkinlik)
+
+@7179929 - ﬁeker ﬁehri (Etkinlik)
+
+@7179083 - Çin ﬁehri (Etkinlik)
+
+@7179052 - Müdür Odas› (Etkinlik)
+
+@7179029 - Melek VS Robot (Etkinlik)
+
+@7179010 - ﬁeker Evi (Etkinlik)
+
+@7167649 - Cad›lar Bayram› Evi (Etkinlik)
+
+@7022368 - 2013 Bal›k Tutma (Etkinlik)
+
+@6983076 - Noel (Etkinlik)
+
+@6872907 - Kamp (Etkinlik)
+
+@6872905 - S›cak Hava Balonu (Etkinlik)
+
+@6872896 - Pizza Kalesi (Etkinlik)
+
+@6863422 - Radyoaktif Bölge
+
+@6862835 - Gökbilim Evi
+
+@6862849 - Zeminli Basketbol Stadyumu
+
+@6860675 - Basketbol Stadyumu
+
+@6860490 - Zindan
+
+@6849098 - Romantik Bahçe
+
+@6849097 - Savaﬂ Alan›
+
+@6848114 - 6 Silahl› Savaﬂ Yeri
+
+@6847661 - Duvarlar› Çatlam›ﬂ Cad› Evi
+
+@6847660 - Slend›rmen, Dinazor, Penguen
+
+@6847566 - Survivor 1.lik Kürsüsü
+
+@6845623 - ﬁelaleli Ve Yatakl› Sinema
+
+@6844733 - Havuzlu Villa
+
+@6842167 - Teleferik («iviler Kalkacak)
+
+@6842166 - ﬁelale
+
+@6842054 - S›cak Hava Balonu
+
+@6841965 - Büyük Yat
+
+@6841948 - Küçük Yat
+
+@6848285 - Beyaz Araba
+
+@6841895 - Siyah Araba
+
+@6841647 - Mezarl›k
+
+@6841947 - Roket
+
+@6840214 - Cenaze Arabas›
+
+@6839928 - Ambulans
+
+@6831656 - Survivor Konsey
+
+@6831613 - Korku Efektli Balon
+
+@6811855 - Korsan Gemi Foto€raf›
+
+@6776244 - Paris Günü (Sadece Utility'de Aç›l›r)
+
+@6776156 - Köprülü Bahçe
+
+@6774967 - Korsan Gemisi
+
+@6767492 - Kamp Ateﬂiyle Festival
+
+@6767392 - Ay› Park›
+
+@6303395 - Tren
+
+@6303372 - Zeplin
+
+@6127825 - H›z Treni
+
+@6109418 - Gemi
+
+@6108434 - Füze
+
+@6094419 - Tünelli, Gizli Üslü¸ Kamp
+
+@6848322 - Korku Efektli, Tünelli, Sinemal› Bölge
+
+@6848321 - Kaykay Yar›ﬂ›
+
+@5312457 - Korku Map›
+
+@5293810 - K›ﬂ Evi
+
+@5281014 - TFM Uça€›
+
+@5280993 - Korsan Gemisi
+
+@5249521 - Deniz Efektli Balkabak Gemisi
+
+@5245857 - Lunapark (Sade Utility'de Aç›l›r)
+
+@5230022 - Oyuncak Ma€azas› (Sade Utility'de Aç›l›r)
+
+@5229898 - Ma€aradaki Ay›
+
+@5187269 - Eyfel Kulesi
+
+@5184988 - Kamp
+
+@5184855 - Romantik Uçan Ada
+
+@5183277 - Ku€ulu Gemi
+
+@5180540 - Noel Sinemas›
+
+@5180532 - De€irmen
+
+@5180151 - At
+
+@5180138 - Yaﬂl› Dede
+
+
+
+
+
+
+
+	
+
+
+Racing:
+
+@6104766
+
+@6847543
+
+@6763078
+
+@6808983
+
+@6827010
+
+@7343532
+
+@7347136
+
+@7347500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Test:
+
+@6806387 - Top Kontrol
+
+@6619695 - Adam Asmaca Map›
+
+@6773526 - Askerin Silah›yla Zemin Etkileﬂimi
+
+@6813783 - Orta Açma
+
+@6844706 - Koﬂu Band›
+
+@6845622 - Süreye Ba€l› Kaybolan Zeminler
+
+@6853901 - Zemin Arkas›na Iﬂ›nlanmak
+
+@7012286 - Adam Asmaca
+
+@7162557 - Kaybolan Zeminli Vanilla
+
+@7162558 - Renk De€iﬂtiren Toplu Vanilla
+
+@7162559 - Etkileﬂimli Zeminli Map Vanilla
+
+@7162561 - Beyaz Yer Gelince Gözüken Yerli Vanilla
+
+@7337509 - Lua ‹çin Uno Map›
+
+@7346691 - Üstüne Bas›nca Kaybolan Zemin
