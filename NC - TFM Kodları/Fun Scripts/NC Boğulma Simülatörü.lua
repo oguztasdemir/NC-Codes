@@ -1,5 +1,3 @@
--- Afogamento Simulator 2014
--- feito por Ninguem
 
 agua={}
 jogador={}
