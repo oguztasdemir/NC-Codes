@@ -1,4 +1,4 @@
-# NC---Codes
+# Oguz_Tasdemir
 
 
 √ Bu dosyayı oluşturan kişi Oğuz Taşdemir'dir. Devilstrk kullanıcı adını kullanmaktadır.
