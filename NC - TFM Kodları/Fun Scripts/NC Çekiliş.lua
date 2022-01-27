@@ -11,10 +11,10 @@ fast = 0
 
 function eventTextAreaCallback(id, p, cmd)
 	if cmd == "entrada" then
-		ui.addTextArea(0, "<p align='center'>Çekiliþ seçiliyor. Lütfen bekleyin...", p, 200, 370, 400, 20, 1, 0x00ff00, 0.8,false)
+		ui.addTextArea(0, "<p align='center'>Ã‡ekiliÅŸ seÃ§iliyor. LÃ¼tfen bekleyin...", p, 200, 370, 400, 20, 1, 0x00ff00, 0.8,false)
 		entrada(p, #participante + 1)
 	elseif cmd == "inicio" then
-		ui.addPopup(0, 2, "<p align='center'>Seçiliþi kaç kiþi kazanacaðýný buraya yaz.", p, 300, 200, 200, false)
+		ui.addPopup(0, 2, "<p align='center'>SeÃ§iliÅŸi kaÃ§ kiÅŸinin kazanacaÄŸÄ±nÄ± buraya yaz.", p, 300, 200, 200, false)
 	elseif cmd == "novo" then
 		novo()
 	end
@@ -22,7 +22,7 @@ end
 
 function eventNewPlayer(p)
 	if not inicio and not fim then
-		ui.addTextArea(0, "<p align='center'><a href='event:entrada'>Kliknij, aby dolaczyc do losowania!", p, 200, 370, 400, 20, 1, 0xffff00, 0.8, false)
+		ui.addTextArea(0, "<p align='center'><a href='event:entrada'>LÃ¼tfen bekleyin.", p, 200, 370, 400, 20, 1, 0xffff00, 0.8, false)
 		ui.addTextArea(-3, "<p align='center'><font size='30px'>"..nome, p, 5, 40, 795, 40, 1, 1, 0.8, false)
 	end
 end
@@ -97,7 +97,7 @@ function eventLoop()
 			sorteio("final")
 			inicio = false
 			fim = true
-			ui.addTextArea(-1, "<p align='center'><a href='event:novo'>Yeni Çekiliþ", adm, 650, 370, 100, 20, 1, 0x0000ff, 0.8,false)
+			ui.addTextArea(-1, "<p align='center'><a href='event:novo'>Yeni Ã‡ekiliÅŸ", adm, 650, 370, 100, 20, 1, 0x0000ff, 0.8,false)
 		end
 	end
 	if fim then
@@ -112,7 +112,7 @@ tfm.exec.disableAutoShaman(true)
 tfm.exec.disableAutoNewGame(true)
 math.randomseed(os.time())
 tfm.exec.newGame(mapa)
-ui.addTextArea(0, "<p align='center'><a href='event:entrada'>Çekiliþe katýlmak için <VP>buraya<n> týkla!", nil, 200, 370, 400, 20, 1, 0xffff00, 0.8, false)
-ui.addTextArea(-1, "<p align='center'><a href='event:inicio'>Gönder", adm, 650, 370, 100, 20, 1, 0x0000ff, 0.8,false)
+ui.addTextArea(0, "<p align='center'><a href='event:entrada'>Ã‡ekiliÅŸe katÃ½lmak iÃ§in <VP>buraya<n> tÄ±kla!", nil, 200, 370, 400, 20, 1, 0xffff00, 0.8, false)
+ui.addTextArea(-1, "<p align='center'><a href='event:inicio'>GÃ¶nder", adm, 650, 370, 100, 20, 1, 0x0000ff, 0.8,false)
 ui.addTextArea(-3, "<p align='center'><font size='30px'>"..nome, nil, 5, 40, 795, 40, 1, 1, 0.8, false)
 tfm.exec.setUIMapName("Devilstrkpro")
