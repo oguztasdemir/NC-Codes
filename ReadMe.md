@@ -6,6 +6,7 @@
 √ Bu oyunları kodlamaya 2015 yılında başladım. 2019 yılına kadar kendi çapımda oyunlar kodlamaktaydım. Örneğin takım kadroları gibi şeyler. Ardından eğlence scriptleri ve oyun içi minigameler yapmaya başladım.
 
 √ Kodlarımın bir çoğunluğu temel seviyeden oluşmaktadır çünkü ekstra bir eğitim görmedim, kendi çabalarımla öğrenmeye başladım bu yüzden temel seviyenin üstündeki kodları 2019'da kodlayabildim.
+
 √ Bu kodların tamamı "Transformice" adlı oyunda kullanılabilir.
 
 √ Kullanım şartları ve kullanım yolu aşağıdakği şekildedir:
@@ -31,6 +32,7 @@
 √ I started coding these games in 2015. Until 2019, I was coding games on my own. Things like team rosters, for example. Then I started making fun scripts and in-game minigames.
 
 √ Most of my codes are basic level because I didn't receive any extra training, I started learning with my own efforts, so I was able to code above basic level in 2019.
+
 √ All of these codes can be used in the game called "Transformice".
 
 √ The terms of use and the way of use are as follows:
