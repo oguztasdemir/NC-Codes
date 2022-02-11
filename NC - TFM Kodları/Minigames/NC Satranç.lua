@@ -1,3 +1,5 @@
+--Oyuna modül olarak sunmasını isteyeceğim için bu kodu full ingilizce yazdım. Türkçe modlar var. Eğer oyundaki ekipler tarafından kabul edilirse oyun içinde talep edilen dilleri de ekleyeceğim fakat buraya yeni halini geçirmeyeceğim. Oyunu oynayanların komutlarımı tamamen çalmasını engellemek için bu kısmın taslak olarak kalmasını istiyorum.
+
 ---------------------- PROPERTIES ----------------------
 local lang = "TR"	-- "TR", "EN"
 
