@@ -35,11 +35,13 @@ end
 
 if c=="s1" then
 tfm.exec.addShamanObject(608,125,100)
+tfm.exec.movePlayer(name,120,350)
 ui.addTextArea(3,"<font size='10'><B><J>Maç başlıyor.",playerList,5,380,00,00,0x3A271C,0x00000,0.99999,true)
 end
 
 if c=="s2" then
 tfm.exec.addShamanObject(608,675,100)
+tfm.exec.movePlayer(name,680,350)
 ui.addTextArea(3,"<font size='10'><B><J>Maç başlıyor.",playerList,5,380,00,00,0x3A271C,0x00000,0.99999,true)
 end
 
