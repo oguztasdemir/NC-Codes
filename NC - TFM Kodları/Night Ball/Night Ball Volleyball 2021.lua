@@ -11,12 +11,38 @@ tfm.exec.respawnPlayer(playerName)
 end
 
 
+    
+
 for name,player in pairs(tfm.get.room.playerList) do
 eventNewPlayer(name)
 
 
 tfm.exec.newGame('<C><P L="1600" /><Z><S><S X="1300" o="b0b43" L="1000" Y="200" c="4" H="400" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="302" o="570a08" L="1000" Y="200" c="4" H="400" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="645" o="5c5b5a" L="100" Y="202" c="4" H="100" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="800" o="0" L="10" Y="125" c="1" H="250" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="800" o="5c5b5a" L="200" Y="325" c="4" H="150" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="955" o="5c5b5a" L="100" Y="202" c="4" H="100" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="800" o="0" L="1495" Y="250" H="10" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="900" o="0" L="10" Y="275" H="250" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="800" o="0" L="2000" Y="400" H="10" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="800" o="0" L="2000" Y="0" H="10" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="-195" o="0" L="10" Y="200" c="1" H="400" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="175" o="0" L="750" Y="325" H="10" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="-66" o="0" L="350" Y="127" H="10" P="0,0,0.3,0.2,45,0,0,0" T="12" /><S X="1425" o="0" L="750" Y="325" H="10" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="1795" o="0" L="10" Y="200" c="1" H="400" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="1666" o="0" L="350" Y="127" H="10" P="0,0,0.3,0.2,-45,0,0,0" T="12" /><S X="700" o="0" L="10" Y="275" H="250" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="591" o="f" L="10" Y="200" H="96" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="645" o="f" L="117" Y="155" H="10" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="1009" o="f" L="10" Y="200" H="96" P="0,0,0.3,0.2,0,0,0,0" T="12" /><S X="955" o="f" L="117" Y="155" H="10" P="0,0,0.3,0.2,0,0,0,0" T="12" /></S><D><DS X="801" Y="348" /></D><O /></Z></C>')
 tfm.exec.setUIMapName("<s>NC Transfer")
+
+function eventNewPlayer(name)
+tfm.exec.bindKeyboard(name,32,true,true)
+tfm.exec.bindKeyboard(name,17,true,true)
+end
+    
+for name,player in pairs(tfm.get.room.playerList) do
+eventNewPlayer(name)
+end
+
+function eventKeyboard(name,key,down,x,y)
+
+if key==17 then
+tfm.exec.addShamanObject(608,125,100)
+tfm.exec.movePlayer(name,120,350)
+ui.addTextArea(3,"<font size='10'><B><J>Maç başlıyor.",playerList,5,380,00,00,0x3A271C,0x00000,0.99999,true)
+else
+if key==32 then
+tfm.exec.addShamanObject(608,675,100)
+tfm.exec.movePlayer(name,680,350)
+ui.addTextArea(3,"<font size='10'><B><J>Maç başlıyor.",playerList,5,380,00,00,0x3A271C,0x00000,0.99999,true)
+end
+end
+end
 
 
 function eventChatCommand(name,c,komut)
@@ -33,17 +59,6 @@ tfm.exec.setUIMapName("<s>NC Transfer")
 end
 
 
-if c=="s1" then
-tfm.exec.addShamanObject(608,125,100)
-tfm.exec.movePlayer(name,120,350)
-ui.addTextArea(3,"<font size='10'><B><J>Maç başlıyor.",playerList,5,380,00,00,0x3A271C,0x00000,0.99999,true)
-end
-
-if c=="s2" then
-tfm.exec.addShamanObject(608,675,100)
-tfm.exec.movePlayer(name,680,350)
-ui.addTextArea(3,"<font size='10'><B><J>Maç başlıyor.",playerList,5,380,00,00,0x3A271C,0x00000,0.99999,true)
-end
 
 
 -- Küçük Saha Kodları
