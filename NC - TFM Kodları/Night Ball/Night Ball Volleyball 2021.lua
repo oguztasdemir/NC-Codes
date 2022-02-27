@@ -42,13 +42,13 @@ end
 function eventKeyboard(name,key,down,x,y)
 
 if key==17 then
-tfm.exec.addShamanObject(608,125,100)
+tfm.exec.addShamanObject(635,125,100) -- 635, 626
 tfm.exec.movePlayer(name,120,350)
 ui.addTextArea(3,"<font size='10'><B><J>"..name.." kırmızı takımda servis kullanıyor.",playerList,5,380,00,00,0x3A271C,0x00000,0.99999,true)
 end
 
 if key==32 then
-tfm.exec.addShamanObject(608,675,100)
+tfm.exec.addShamanObject(635,675,100)
 tfm.exec.movePlayer(name,680,350)
 ui.addTextArea(3,"<font size='10'><B><J>"..name.." mavi takımda servis kullanıyor.",playerList,5,380,00,00,0x3A271C,0x00000,0.99999,true)
 end
