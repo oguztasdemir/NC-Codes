@@ -6,7 +6,7 @@ vento       = os.time();
 _GameTime   = 0
 _GameRecord = 0
 
--- Funções Especiais --
+-- FunÃ§Ãµes Especiais --
 textarea=ui.addTextArea function ui.addTextArea(id,text,targetPlayer,x,y,width,height,backgroundColor,borderColor,backgroundAlpha,emboss,active,active2,active3) if active then textarea(6969+id,"",targetPlayer,x,y+1,width,height,0x000001,0x000001,backgroundAlpha,emboss) textarea(7979+id,"",targetPlayer,x,y-1,width,height,0x6A8FA2,0x6A8FA2,backgroundAlpha,emboss) end if active2 then textarea(7979+id,"",targetPlayer,x,y-1,width,height,0x6A8FA2,0x6A8FA2,backgroundAlpha,emboss) end if active3 then textarea(6969+id,"",targetPlayer,x,y+1,width,height,0x000001,0x000001,backgroundAlpha,emboss) end textarea(id,text,targetPlayer,x,y,width,height,backgroundColor,borderColor,backgroundAlpha,emboss) end
 addPopup=ui.addPopup function ui.addPopup(id,tipo,texto,nome,x,y,largura,height,fixo) if tipo ~= 4 then addPopup(id,tipo,texto,nome,x,y,largura,height) else ui.addTextArea(id,texto,nome,x,y,largura,height,0x324650,0x324650,nil,true,true) lang=traduction(nome) ui.addTextArea(id+1,"<p align='center'><font size='12'><a href='event:close_popup'>"..lang.close.."</a></font></p>",nome,x+5,y+height-22,largura-10,18,0x3c5063,0x3c5063,nil,true,true) end end
 function split(t,s) local a={} for i,v in string.gmatch(t,string.format("[^%s]+",s or "%s")) do table.insert(a,i) end return a end
@@ -22,20 +22,20 @@ vivos=0
 
 languages = {
 	["br"]={
-		welcome = "<VP>?</VP> <J>Olá %s bem-vindo(a) ao <I>Climbing</I>.</J></B><BR><BL>Minigame em desenvolvimento versão alpha 0.13.3<BR>Minigame criado por: Contistente<BR>Ajudantes e Participantes:<BR>Lynezx e Fofinhoppp<BR>Dúvidas ou quer ver os comandos, digite !help</BL>",
-		help = "<p align='center'><B><J><font size='15'>Como Jogar</font></J></B></p><BR><font size='12'><CE>O objetivo do jogo é chegar ao topo do mapa, todos os mapas do minigame são <B>Gerados aleatóriamente</B> pelo minigame, para não dificultar muito todos os jogadores tem 3 vidas e double jump apertando a tecla <B>Espaço</B>.</CE></font><BR><p align='center'><B><J><font size='15'>Comandos do Climbing</font></J></B></p><br><BL><font size='12'><B>!lang [BR / EN] - Define a linguagem do jogo apenas para você.<BR>!help - Abre a janela de ajuda e comandos.</font>",
-		anuncio = "Quer ver quem é o melhor jogador do minigame? Digite <B>!rank</B>.",
+		welcome = "<VP>?</VP> <J>OlÃ¡ %s bem-vindo(a) ao <I>Climbing</I>.</J></B><BR><BL>Minigame em desenvolvimento versÃ£o alpha 0.13.3<BR>Minigame criado por: Contistente<BR>Ajudantes e Participantes:<BR>Lynezx e Fofinhoppp<BR>DÃºvidas ou quer ver os comandos, digite !help</BL>",
+		help = "<p align='center'><B><J><font size='15'>Como Jogar</font></J></B></p><BR><font size='12'><CE>O objetivo do jogo Ã© chegar ao topo do mapa, todos os mapas do minigame sÃ£o <B>Gerados aleatÃ³riamente</B> pelo minigame, para nÃ£o dificultar muito todos os jogadores tem 3 vidas e double jump apertando a tecla <B>EspaÃ§o</B>.</CE></font><BR><p align='center'><B><J><font size='15'>Comandos do Climbing</font></J></B></p><br><BL><font size='12'><B>!lang [BR / EN] - Define a linguagem do jogo apenas para vocÃª.<BR>!help - Abre a janela de ajuda e comandos.</font>",
+		anuncio = "Quer ver quem Ã© o melhor jogador do minigame? Digite <B>!rank</B>.",
 		close="Fechar",
-		loseallhearts="Você perdeu todos os seus <B><font color='#FF0000'>¦</font></B>.",
-		version="<B><ROSE>~Nova versão 0.13.3~</ROSE></B><BR>- Adicionado sistema de recorde.<BR>- Nosso sistema de impulsos mudou."
+		loseallhearts="VocÃª perdeu todos os seus <B><font color='#FF0000'>Â¦</font></B>.",
+		version="<B><ROSE>~Nova versÃ£o 0.13.3~</ROSE></B><BR>- Adicionado sistema de recorde.<BR>- Nosso sistema de impulsos mudou."
 	},
 
 	["en"]={
-		welcome="<VP>?</VP> <J>Hello %s welcome to <I>Climbing</I>.</J></B><BR><BL>Minigame in development alpha version 0.13.3<BR>Minigame created by: Contistente<BR>Helpers and Participants: <BR>Lynezx and Fofinhoppp<BR>Questions or want to see commands, type it !help </ BL>",
+		welcome="<VP>?</VP> <J>Hello %s welcome to <I>Climbing</I>.</J></B><BR><BL>Minigame in development alpha version 0.13.3<BR>Minigame created by: Devilstrkpro<BR>Helpers and Participants: <BR>Lynezx and Fofinhoppp<BR>Questions or want to see commands, type it !help </ BL>",
 		help="<p align='center'><B><J><font size='15'>How to play</font></J></B></p><BR><font size='12'><CE>The goal of the game is to get to the top of the map, all maps Of the minigame are <B>randomly generated</B> by the minigame, so as not to make it very difficult for all players to have 3 lives and a double jump by pressing a <B>Space</B>.</CE></font><BR><p align='center'><B><J><font size='15'>Climbing Commands</font></p><BL></B></J><B>!lang [BR / EN] - Define a game language just for you.<BR>!help - Open the help window and commands.",
 		anuncio="Want to see who is the best minigame player? Type <B>!rank</B>.",
 		close="Close",
-		loseallhearts="You have lost all your <B><font color='#FF0000'>¦</font></B>.",
+		loseallhearts="You have lost all your <B><font color='#FF0000'>Â¦</font></B>.",
 		version="<B><ROSE>~New version 0.13.3~</ROSE></B><BR>- Added record system.<BR>- Our impulse system has changed."
 	}
 }
@@ -220,7 +220,7 @@ function eventRanking(name)
 	table.sort(players,function(a,b) return a.gamescore>b.gamescore end)
 	
 	for k,v in pairs(players) do
-		pages[name][page] = pages[name][page].."<BR><font size='12'><B><J>"..k.."</J></B> ¦ <VI>GameScore: <B>"..v.gamescore.."</B></VI>   ¦ <font color='#2F7FCC'>Wins: <B>"..v.w.."</B></font></font>    ¦ <V>Name: <B>"..v.nome.."</B></V>"
+		pages[name][page] = pages[name][page].."<BR><font size='12'><B><J>"..k.."</J></B> Â¦ <VI>GameScore: <B>"..v.gamescore.."</B></VI>   Â¦ <font color='#2F7FCC'>Wins: <B>"..v.w.."</B></font></font>    Â¦ <V>Name: <B>"..v.nome.."</B></V>"
 	end
 
 	ui.addTextArea(110,"",name,200,40,400,350,0x324650,0x324650,nil,true,false,true)
@@ -314,19 +314,19 @@ function hearts(name)
 	
 	if data[name].life == data[name].maxLife then
 		for i=1,data[name].life do
-			s=s.."<font color='#FF0000' size='15'><B>¦</font>"
+			s=s.."<font color='#FF0000' size='15'><B>Â¦</font>"
 		end
 	end
 	
 	if data[name].life < data[name].maxLife then
 		for i=1,data[name].life do
-			s=s.."<font color='#FF0000' size='15'><B>¦</font>"
+			s=s.."<font color='#FF0000' size='15'><B>Â¦</font>"
 		end
 		
 		m = data[name].maxLife-data[name].life
 		
 		for i=1,m do
-			s=s.."<font color='#8B0000' size='15'><B>¦</font>"
+			s=s.."<font color='#8B0000' size='15'><B>Â¦</font>"
 		end
 	end
 
