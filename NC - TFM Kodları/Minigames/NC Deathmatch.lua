@@ -1,4 +1,4 @@
-ddtfm.exec.disableAutoNewGame(true)
+tfm.exec.disableAutoNewGame(true)
 tfm.exec.disableAutoShaman(true)
 players={}
 toDespawn={}
@@ -88,6 +88,6 @@ eventNewPlayer(name)
 end
  
 tfm.exec.newGame(maps[math.random(#maps)])
-tfm.exec.setUIMapName("<J>N›GHTBALL/<R>÷RS Sava˛˝")
+tfm.exec.setUIMapName("<J>N√ùGHTBALL/<R>√ñRS Sava√æ√Ω")
 ui.addTextArea(1,"<p align='center'><a href='event:profilsyh'><b><R></b></a></p>",name,50,10,350,20,1,true)
-ui.addTextArea(3,"<p align='center'><a href='event:profil'><b><R></b>Night Club Football ÷zel/N›GHTBALL</a></p>",name,60,20,330,20,10,true)
+ui.addTextArea(3,"<p align='center'><a href='event:profil'><b><R></b>Night Club Football √ñzel/N√ùGHTBALL</a></p>",name,60,20,330,20,10,true)
