@@ -96,7 +96,7 @@ ui.addTextArea(1,"ve ya sevinçli ya da sıkıntı içinde",nil, 1350, 180,150,4
 end
 
 if t==1036 then
-ui.addTextArea(1,'Sen '..groom..'. sonsuza dek '..bride' ile yaşamayı kabul ediyor musun?',nil, 1350, 160,150,70, color,color,Alpha,false)
+ui.addTextArea(1,'Sen '..groom..'. sonsuza dek onunla yaşamayı kabul ediyor musun?',nil, 1350, 160,150,70, color,color,Alpha,false)
 groomanswer=1
 end
 
@@ -112,7 +112,7 @@ end
 
 if t==2006 then
 ui.removeTextArea(3,nil)
-ui.addTextArea(1,'Ve sen '..bride..'. sonsuza kadar '..groom' ile yaşayıp ona aşık olacak mısın?',nil, 1350, 160,150,70, color,color,Alpha,false)
+ui.addTextArea(1,'Ve sen '..bride..'. sonsuza kadar onunla yaşayıp ona aşık olacak mısın?',nil, 1350, 160,150,70, color,color,Alpha,false)
 ui.addTextArea(2,'<a href="event:brideanswer"><p align="center">Evet. Þimdi ve herzaman.</p></a>',bride ,830,350,100,40,0x3c5064,0x3c5064,alpha)
 end
 
