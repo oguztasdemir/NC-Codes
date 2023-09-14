@@ -1,4 +1,4 @@
-adm="Devilstrk" 
+adm="Devilstrkpro#5475" 
 
 tfm.exec.newGame()
 eventKeyboard=table.foreach({32,80},function(_,k) system.bindKeyboard(adm,k,true,true) end) or function(n,k)
