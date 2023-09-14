@@ -156,4 +156,4 @@ brideanswer=1
 end
 end
 
-tfm.exec.setUIMapName("Düðün Salonu")
+tfm.exec.setUIMapName("Düğün Salonu")
