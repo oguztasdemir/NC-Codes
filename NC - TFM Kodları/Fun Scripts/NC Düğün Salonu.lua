@@ -1,5 +1,5 @@
-groom='Devilstrkpro#0000'
-bride='kumsal#3862'
+groom='kitapokudum#0000'
+bride='devilstrkpro#5475'
 
 
 f=400
@@ -42,11 +42,11 @@ tfm.exec.movePlayer(bride,1350, 290,offset,0,0,offset)
 end
 
 if t==60 then
-ui.addTextArea(1,"Uhm. Baþlayabilir miyiz?",nil, 1350, 180,150,40, color,color,Alpha,false)
+ui.addTextArea(1,"Uhm. BaÅŸlayabilir miyiz?",nil, 1350, 180,150,40, color,color,Alpha,false)
 end
 
 if t==80 then
-ui.addTextArea(1,"Lütfen gelini getirin!",nil, 1350, 180,150,40, color,color,Alpha,false)
+ui.addTextArea(1,"LÃ¼tfen gelini getirin!",nil, 1350, 180,150,40, color,color,Alpha,false)
 tfm.exec.respawnPlayer(bride)
 tfm.exec.movePlayer(bride,400, 350,offset,0,0,offset)
 bridewalking=1
@@ -76,55 +76,55 @@ end
 end
 
 if t==1006 then
-ui.addTextArea(1,"Seramoniye geçelim.",nil, 1350, 180,150,40, color,color,Alpha,false)
+ui.addTextArea(1,"Seramoniye geÃ§elim.",nil, 1350, 180,150,40, color,color,Alpha,false)
 end
 
 if t==1012 then
-ui.addTextArea(1,"Biz buraya tanýk olmak ve kutlamak için geldik.",nil, 1350, 180,150,40, color,color,Alpha,false)
+ui.addTextArea(1,"Biz buraya tanÄ±k olmak ve kutlamak iÃ§in geldik.",nil, 1350, 180,150,40, color,color,Alpha,false)
 end
 
 if t==1018 then
-ui.addTextArea(1,"Ýki arkadaþýn ebedi birliliði..",nil, 1350, 180,150,40, color,color,Alpha,false)
+ui.addTextArea(1,"Ä°ki arkadaÅŸÄ±n ebedi birliliÄŸi..",nil, 1350, 180,150,40, color,color,Alpha,false)
 end
 
 if t==1024 then
-ui.addTextArea(1,"Onlar yolculuklarýnda zengin ya da fakir olabilir",nil, 1350, 180,150,40, color,color,Alpha,false)
+ui.addTextArea(1,"Onlar yolculuklarÄ±nda zengin ya da fakir olabilir",nil, 1350, 180,150,40, color,color,Alpha,false)
 end
 
 if t==1030 then
-ui.addTextArea(1,"ve ya sevinçli ya da sýkýntý içinde",nil, 1350, 180,150,40, color,color,Alpha,false)
+ui.addTextArea(1,"ve ya sevinÃ§li ya da sÄ±kÄ±ntÄ± iÃ§inde",nil, 1350, 180,150,40, color,color,Alpha,false)
 end
 
 if t==1036 then
-ui.addTextArea(1,'Sen '..groom..'. sonsuza dek onunla yaþamayý kabul ediyor musun?',nil, 1350, 160,150,70, color,color,Alpha,false)
+ui.addTextArea(1,'Sen '..groom..'. sonsuza dek '..bride' ile yaÅŸamayÄ± kabul ediyor musun?',nil, 1350, 160,150,70, color,color,Alpha,false)
 groomanswer=1
 end
 
 if groomanswer==1 then
-ui.addTextArea(2,'<a href="event:groomanswer"><p align="center">Evet. Þimdi ve sonsuza kadar.</p></a>',groom ,830,350,100,40,0x3c5064,0x3c5064,alpha)
+ui.addTextArea(2,'<a href="event:groomanswer"><p align="center">Evet. Åžimdi ve sonsuza kadar.</p></a>',groom ,830,350,100,40,0x3c5064,0x3c5064,alpha)
 end
 
 if groomanswer==2 then
-ui.addTextArea(3,"Evet. Þimdi ve sonsuza kadar.",nil ,1300,200,100)
+ui.addTextArea(3,"Evet. Ãžimdi ve sonsuza kadar.",nil ,1300,200,100)
 t=2000
 groomanswer=3
 end
 
 if t==2006 then
 ui.removeTextArea(3,nil)
-ui.addTextArea(1,'Ve sen '..bride..'. sonsuza kadar onunla yaþayýp ona aþýk olacak mýsýn?',nil, 1350, 160,150,70, color,color,Alpha,false)
-ui.addTextArea(2,'<a href="event:brideanswer"><p align="center">Evet. Þimdi ve herzaman.</p></a>',bride ,830,350,100,40,0x3c5064,0x3c5064,alpha)
+ui.addTextArea(1,'Ve sen '..bride..'. sonsuza kadar '..groom' ile yaÅŸayÄ±p ona aÅŸÄ±k olacak mÄ±sÄ±n?',nil, 1350, 160,150,70, color,color,Alpha,false)
+ui.addTextArea(2,'<a href="event:brideanswer"><p align="center">Evet. Ãžimdi ve herzaman.</p></a>',bride ,830,350,100,40,0x3c5064,0x3c5064,alpha)
 end
 
 if brideanswer==1 then
-ui.addTextArea(3,"Evet. Þimdi ve herzaman.",nil ,1300,200,100)
+ui.addTextArea(3,"Evet. Åžimdi ve her zaman.",nil ,1300,200,100)
 t=3000
 brideanswer=2
 end
 
 if t==3006 then
 ui.removeTextArea(3,nil)
-ui.addTextArea(1,'Tebrikler! Bu çiftin evliliðini ilan ediyorum. Þimdi eþinizi öpebilirsiniz.',nil, 1350, 180,170,50, color,color,Alpha,false)
+ui.addTextArea(1,'Tebrikler! Bu Ã§iftin evliliÄŸini ilan ediyorum. Åžimdi eÅŸinizi Ã¶pebilirsiniz.',nil, 1350, 180,170,50, color,color,Alpha,false)
 end
 
 if t==3012 then
@@ -137,7 +137,7 @@ positionbridelock=0
 end
 
 if t==3020 then
-ui.addTextArea(1,"Vee hadi þimdi parti yapalým!",nil, 1350, 180,150,40, color,color,Alpha,false)
+ui.addTextArea(1,"Vee hadi ÅŸimdi parti zamanÄ±!",nil, 1350, 180,150,40, color,color,Alpha,false)
 end
 
 end
@@ -156,4 +156,4 @@ brideanswer=1
 end
 end
 
-tfm.exec.setUIMapName("Düðün Salonu")
+tfm.exec.setUIMapName("DÃ¼Ã°Ã¼n Salonu")
