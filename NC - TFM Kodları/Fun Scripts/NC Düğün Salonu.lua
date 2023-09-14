@@ -20,7 +20,7 @@ tfm.exec.disableAutoShaman(true)
 tfm.exec.disableAutoTimeLeft(true)
 tfm.exec.disableAfkDeath(true)
 tfm.exec.disableAutoNewGame(true)
-tfm.exec.newGame('@5321472')
+tfm.exec.newGame('@7941898')
 
 function eventNewGame()
 tfm.exec.movePlayer(groom,1350, 290,offset,0,0,offset)
