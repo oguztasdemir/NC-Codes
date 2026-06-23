@@ -12,7 +12,7 @@
 --
 -- Also adds the event `eventInit()`, called when all modules have been merged (after calling `pshy.merge_Finish()`).
 --
--- @author TFM:Devilstrkpro DC:Devilstrk#5303
+-- @author TFM:Devilstrkpro DC:Devilstrk#5475
 -- @hardmerge
 -- @namespace pshy
 if pshy then
@@ -1492,8 +1492,8 @@ function pshy.UIShow(u, player_name)
 	ui.addTextArea(u.id, u.text, player_name or u.player, u.x, u.y, u.w, u.h, u.back_color, u.border_color, u.alpha, u.fixed)
 end
 --- TFM text area click
--- events are separated by a '\n', so a single click can trigger several events.
--- events close, closeall, pcmd and cmd are hardcoded
+-- Etkinlikler
+-- Etkinlikler
 function eventTextAreaCallback(textAreaId, playerName, callback)
 	callbacks = pshy.StrSplit(callback, "\n")
 	for i_c, c in ipairs(callbacks) do
@@ -1698,7 +1698,7 @@ function new_mod.Content()
 --- Help pages.
 -- Key is the name page.
 -- Value is the help table (help page).
--- Help pages fields:
+-- Yardım
 --	string:back		- upper page.
 --	string:title		- title of the page.
 --	string:text		- text to display at the top of the page.
@@ -1728,7 +1728,7 @@ function pshy.GetChatCommandHelpHtml(command_name)
 	local html = html .. pshy.commands_GetUsage(command_name)
 	-- short description
 	html = html .. "</b></i>\t - " .. (real_command.desc and tostring(real_command.desc) or "no description")
-	-- help + other info
+	-- Yardım
 	if real_command.help then
 		html = html .. "\n" .. real_command.help
 	end
@@ -1769,7 +1769,7 @@ function pshy.GetHelpPageHtml(page_name, is_admin)
 	end
 	-- text
 	html = html .. "<p align='center'>" .. (page.text or "") .. "</p>"
-	-- commands
+	-- Komutlar
 	if page.commands then
 		html = html .. "<bv><p align='center'><font size='16'>Commands" .. "</font></p>\n"
 		for cmd_name, cmd in pairs(page.commands) do
@@ -2857,7 +2857,7 @@ function new_mod.Content()
 -- This modulepack is for running Devilstrkpro's mario map.
 --
 -- @author Devsiltrkpro (map, lua script)
--- @author TFM:Devilstrkpro DC:Devilstrk#5303 İG:@Oguz_tasdemir (lua script)
+-- @author TFM:Devilstrkpro DC:Devilstrk#5475 İG:@_oguztasdemir (lua script)
 -- @require pshy_checkpoints.lua
 -- @require pshy_fcplatform.lua
 -- @require pshy_fun_commands.lua
@@ -2882,7 +2882,7 @@ pshy.scores_per_bonus = 1					-- get points per bonus
 pshy.scores_reset_on_leave = false
 pshy.scores_show = false
 pshy.perms_auto_admin_authors = true		-- add the authors as admin automatically
-pshy.authors["Devilstrkpro#0000"] = true
+pshy.authors["Devilstrkpro#5475"] = true
 pshy.authors["Devsiltrkpro#5475"] = true
 --- TFM Settings:
 tfm.exec.disableAutoNewGame(true)

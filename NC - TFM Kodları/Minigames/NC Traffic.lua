@@ -1,17 +1,17 @@
 --Transformice modülünün 1e1 kodlanmış halidir
 
 local module = {
-	owner = Devilstrkpro#5475",
+	owner = "Devilstrkpro#5475",
 	map_file = 1
 }
 
--- Translations
+-- Çeviriler
 local translations = {
 	en = {
-		-- Init
+		-- Başlangıç
 		welcome = "Welcome to <PS>#Traffic<S>! Follow the traffic lights and join the hole! Use !help to read more informations. Made by Devilstrkpro",
 		
-		-- Info
+		-- Bilgi
 		info = {
 			[1] = {"Run", "Run as fast as you can. Do not stop!"},
 			[2] = {"Attention", "Pay attention! You can die in the next few seconds!"},
@@ -40,7 +40,7 @@ local translation = translations[tfm.get.room.community] or translations.en
 local info = {}
 local mapEvaluators = {
 	["Devilstrkpro#5475"] = true,
-	["Devilstrkpro#0000"] = true
+	["Devilstrkpro#5475"] = true
 }
 local review = false
 

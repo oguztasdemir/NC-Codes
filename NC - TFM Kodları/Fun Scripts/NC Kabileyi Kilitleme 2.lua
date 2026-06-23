@@ -1,5 +1,5 @@
 --Created by Devilstrk
-admin = "Devilstrkpro" -- Admin's name
+admin = "Devilstrkpro#5475" -- Admin's name
 password = "NC" -- Password
 players={} -- Don't write anything here
 system.disableChatCommandDisplay("password")

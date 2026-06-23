@@ -5,7 +5,7 @@ tfm.exec.disableAfkDeath(true)
 
 system.disableChatCommandDisplay(nil)
 
-modulo_name = "Devilstrkpro"
+modulo_name = "Devilstrkpro#5475"
 modulo_creator = "Devilstrkpro#5475"
 
 room = {

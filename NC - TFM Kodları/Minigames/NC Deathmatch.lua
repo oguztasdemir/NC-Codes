@@ -88,6 +88,6 @@ eventNewPlayer(name)
 end
  
 tfm.exec.newGame(maps[math.random(#maps)])
-tfm.exec.setUIMapName("<J>NÝGHTBALL/<R>ÖRS Savaþý")
+tfm.exec.setUIMapName("<J>NıGHTBALL/<R>ÖRS Savaşı")
 ui.addTextArea(1,"<p align='center'><a href='event:profilsyh'><b><R></b></a></p>",name,50,10,350,20,1,true)
-ui.addTextArea(3,"<p align='center'><a href='event:profil'><b><R></b>Night Club Football Özel/NÝGHTBALL</a></p>",name,60,20,330,20,10,true)
+ui.addTextArea(3,"<p align='center'><a href='event:profil'><b><R></b>Night Club Football Özel/NıGHTBALL</a></p>",name,60,20,330,20,10,true)

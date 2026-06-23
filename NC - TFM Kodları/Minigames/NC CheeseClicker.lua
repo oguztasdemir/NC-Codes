@@ -1,6 +1,6 @@
 	-- Variables 
 
-		-- System
+		-- Sistem
 			lang_name = "fr"
 			theme = nil
 			admin = "Psykotik"

@@ -19,7 +19,7 @@ function main()
 	local map = "@7498736"
 	--Whoever is in the pos [1] is the current player
 	playerList = {admin} --Admin is the first player
-	--Admin name control
+	-- Yönetici
 	for k in pairs(tfm.get.room.playerList) do
 		if k==admin then 
 			name = true 

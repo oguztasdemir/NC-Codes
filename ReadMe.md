@@ -1,50 +1,51 @@
-# Oguz_Tasdemir
+# NC-Codes (Transformice Lua Scripts)
 
+Bu depo, Oğuz Taşdemir (**Devilstrk**) tarafından 2013 yılından bu yana geliştirilen, **Transformice** oyun içi kabile evlerinde çalıştırılabilen eğlence scriptleri, mini oyunlar ve takım kadroları gibi çeşitli Lua kodlarını içerir.
 
-√ Bu dosyayı oluşturan kişi Oğuz Taşdemir'dir. Devilstrk kullanıcı adını kullanmaktadır.
+## 🚀 Hakkında
+* Kodlama yolculuğuna 2013 yılında başlayıp 2019 yılına kadar takım kadroları gibi temel seviye araçlar geliştirdim.
+* 2019 yılından itibaren oyun içi minigameler ve eğlence scriptleri geliştirmeye yöneldim.
+* Kodlar, macOS ve Windows platformlarında Türkçe karakter uyumluluğu için tamamen UTF-8 formatına güncellenmiştir.
 
-√ Bu oyunları kodlamaya 2015 yılında başladım. 2019 yılına kadar kendi çapımda oyunlar kodlamaktaydım. Örneğin takım kadroları gibi şeyler. Ardından eğlence scriptleri ve oyun içi minigameler yapmaya başladım.
+## 🛠️ Nasıl Kullanılır?
+1. Bir kabileniz olmalı ve kabile evinde Lua kodu çalıştırabilme yetkiniz bulunmalıdır.
+2. Kabile evine giderek sohbet satırına `/lua` yazın.
+3. Bu depodaki bağımsız `.lua` dosyalarından birinin içeriğini kopyalayın ve açılan kod alanına yapıştırıp çalıştırın.
 
-√ Kodlarımın bir çoğunluğu temel seviyeden oluşmaktadır çünkü ekstra bir eğitim görmedim, kendi çabalarımla öğrenmeye başladım bu yüzden temel seviyenin üstündeki kodları 2019'da kodlayabildim.
+> [!IMPORTANT]
+> Her bir `.lua` dosyası birbirinden bağımsızdır. Kodların düzgün çalışabilmesi için yeni bir kod açmadan önce kabile evindeki eski `/lua` içeriğini tamamen temizlemelisiniz.
 
-√ Bu kodların tamamı "Transformice" adlı oyunda kullanılabilir.
+---
 
-√ Kullanım şartları ve kullanım yolu aşağıdakği şekildedir:
+## 📬 İletişim & Sosyal Medya
+Herhangi bir hata bildirimi, öneri veya iş birliği için aşağıdaki kanallardan bana ulaşabilirsiniz:
 
-1- Kabileniz olmalı ve kabilenizde yetkiniz olmalıdır.
-2- Kabile evine giderek chat kısmına /lua yazmalısınız.
-3- Lua yazdıktan sonra bu klasörlerdeki dosyaların içeriğini kopyalayarak o kod istenilen yere yapıştırmalısınız.
+* **Instagram:** [@_oguztasdemir](https://instagram.com/_oguztasdemir)
+* **LinkedIn:** [Oğuz Taşdemir](https://linkedin.com/in/oguz-tasdemir-846889353)
 
+---
 
-√ Klasördeki her bir .lua içeriği birbirinden bağımsızdır. Toplu biçimde açmaya çalışırsanız kodunuz hata verir. O yüzden kabile evine gittiğinizde /lua içeriğini siliniz.
+# English Description
 
-√ Önceki kodlarımı Windows işletim sisteminde yazmaktaydım fakat MacOS işletim sistemine geçtiğim zaman türkçe karakterler hata vermeye başladı bu yüzden bazı kodların metin kısmında hatalar bulunmaktadır. Ben elimden geldiğince düzelttim. Eğer bir yerde hata görürseniz instagram üzerinden bana bildirebilirsiniz. İnstagram adresim: @oguz_tasdemir
+This repository contains various in-game **Transformice** Lua scripts (minigames, fun scripts, and team roster tools) created by Oğuz Taşdemir (**Devilstrk**) since 2013.
 
-√ Okuduğunuz için teşekkür ederim iyi eğlenceler.
+## 🚀 About
+* Started coding in 2013, focusing on basic tools like roster lists until 2019.
+* Since 2019, shifted focus to creating advanced in-game minigames and fun scripts.
+* All scripts are encoded in UTF-8 for cross-platform compatibility (Windows & macOS).
 
+## 🛠️ How to Use
+1. You must have a tribe and Lua execution permission within your tribe house.
+2. Go to your tribe house and type `/lua` in the chat.
+3. Copy the content of any independent `.lua` file from this repository and paste it into the code editor.
 
-///////////////////////////////////////////////////////////////////////
+> [!IMPORTANT]
+> Each `.lua` script runs independently. Make sure to clear the previous `/lua` content before pasting a new script.
 
+---
 
+## 📬 Contact & Social Media
+For bug reports or inquiries, feel free to contact me:
 
-√ The person who created this file is Oğuz Taşdemir. It uses the Devilstrk username.
-
-√ I started coding these games in 2015. Until 2019, I was coding games on my own. Things like team rosters, for example. Then I started making fun scripts and in-game minigames.
-
-√ Most of my codes are basic level because I didn't receive any extra training, I started learning with my own efforts, so I was able to code above basic level in 2019.
-
-√ All of these codes can be used in the game called "Transformice".
-
-√ The terms of use and the way of use are as follows:
-
-1- You must have tribe and have authority in your tribe.
-2- You should go to the tribe house and write /lua in the chat section.
-3- After typing Lua, you should copy the contents of the files in these folders and paste that code to the desired location.
-
-
-√ Each .lua content in the folder is independent of each other. Your code will throw an error if you try to open it in bulk. So when you go to the tribe house, delete the /lua content.
-
-√ I used to write my previous codes in the Windows operating system, but when I switched to the MacOS operating system, Turkish characters started to give errors, so there are errors in the text part of some codes. I fixed it as best I could. If you see a mistake somewhere, you can let me know on Instagram. My Instagram address: @oguz_tasdemir
-
-√ Thank you for reading, have fun.
-
+* **Instagram:** [@_oguztasdemir](https://instagram.com/_oguztasdemir)
+* **LinkedIn:** [Oğuz Taşdemir](https://linkedin.com/in/oguz-tasdemir-846889353)

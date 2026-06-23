@@ -51,6 +51,7 @@ ui.addTextArea(27,"<p align='center'><a href='event:tüm'>Tüm Futbolcular</a></
 -------------------------------------------------------------------------
 
 
+function eventTextAreaCallback(id, name, cb)
 if cb=="devil" then
 ui.addTextArea(3,"<P><R>'><font size='15'>Devilstrkpro - [11]\n<J><a href='event:gab'> Attığı Gol: 0\n<J><a href='event:gb'> Yediği Gol: 0\n<J><a href='event:gnb'> Attığı Çalım: 0\n<J><a href='event:kap'> Yediği Çalım: 0\n<J><a href='event:kt'> Kurtardığı Şut:   0\n<J><a href='event:at'> Attığı Depar: 0\n<J><a href='event:ddn'> Direkten Dönen Top: 0\n<J><a href='event:om'>  Oynadığı Maç: 0\n<J><a href='event:a'>Kazandığı Maç: 0\n<J><a href='event:b'>Yenildiği Maç: 0\n<J><a href='event:ab'>Kabileler Arası Maça Katılma: 0\n<J><a href='event:t'>Takımdan Olmayan Kişilerle Vs Atma:0\n<J><a href='event:g'>Antremana Katılma: 0</font><",n,53,30,700,nil,0,1,0.7,true)
 ui.addTextArea(4,"<p align='center'><a href='event:zam'>Kapat</a></p>",name,5,300,790,20,nil,n,n,true)

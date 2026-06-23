@@ -2,7 +2,7 @@ tfm.exec.disableAutoShaman()
 tfm.exec.disableAutoNewGame(true)
 local H = os.date("%H")-3
 
-Admin = "Devilstrkpro#0000"
+Admin = "Devilstrkpro#5475"
 
 local data, battery = {}, {loop = {20,40}, x = math.random(10,790), y = math.random(200,380)}
 local npc = {

@@ -959,7 +959,7 @@ function eventChatCommand(n, cmd)
           if not tempSettings[setting] then tempSettings[setting] = num end
           ui.addBotText("setSetting", n, function(data) return format(data, setting, num2, tempSettings[setting]) end)
           settings[setting] = num2
-          break;
+          break
         end
       end
     elseif tostring(arg[1]) and tonumber(arg[2]) then
@@ -1012,7 +1012,7 @@ function eventChatCommand(n, cmd)
           teams[team][n] = true
           players[n].isInTeam = team
           ui.addBotText("joinedTeam", n, function(data) return format(data, team, n2) end)
-          break;
+          break
         end
       end
       if not players[n].isInTeam == team then ui.addBotText("cantJoinTeam", n, function(data) return format(data, team) end) end

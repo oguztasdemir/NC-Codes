@@ -1,5 +1,5 @@
 --------------
--- Settings --
+-- Ayarlar
 --------------
 OUTPUT_MODE = 2
 -- 0 = silent mode (only visible to the one who loaded the script)

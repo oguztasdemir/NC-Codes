@@ -1,4 +1,4 @@
-admin = "Devilstrkpro#0000"
+admin = "Devilstrkpro#5475"
  
 
 tfm.exec.disableAutoShaman(true)

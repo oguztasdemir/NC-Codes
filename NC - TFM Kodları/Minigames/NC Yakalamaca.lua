@@ -23,7 +23,7 @@ function pythag(x1,y1,x2,y2,r)
 	return x*x+y*y<r*r
 end
 
-admins={Nıckname=1} ------------------ nick name
+admins={["Nickname"]=1} ------------------ nick name
 t = {2807}
 despawn = {}
 tfm.exec.newGame(map[math.random(#map)])

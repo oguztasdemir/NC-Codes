@@ -3,7 +3,7 @@ mapObjects = {}
 mapFixedObjects = {}
 players = {}
 yaz = tfm.exec.chatMessage
-tfm.exec.setPlayerScore("Devilstrkpro", 5000)
+tfm.exec.setPlayerScore("Devilstrkpro#5475", 5000)
 --tfm.exec.disableAutoShaman()
 
 

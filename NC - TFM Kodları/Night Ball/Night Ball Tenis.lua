@@ -2,7 +2,7 @@
 
 
 -- Updates : Particles customisation, RIP Stats, Simple banning system implemented, Overtime.
-local admin = {Devilstrkpro = true}
+local admin = {["Devilstrkpro#5475"] = true}
 local ball = {currentCoords = {x = 0, y = 0}, ID = 604, spawnCoords = {x = 600, y = 200}}
 local banned = {Etho = true}
 local blue = {}
@@ -12,9 +12,9 @@ local playerSettings = {direction = 1, pressKey = 0, boost = 0, moveLeft = 0, mo
 local red = {}
 local spectators = {}
 
--- Settings stoof.
+-- Ayarlar
 -- Remove me and this game will break. Don't you even dare!
-admin["Devilstrk"] = true
+admin["Devilstrk#5475"] = true
 local enabledSoupbot = true
 local globalBoostForce = 1
 local gameStart = false
@@ -426,7 +426,7 @@ function eventLoop(passed, left)
         tfm.exec.setGameTime(7)
         overTime = false
       else
-        eventChatCommand("Devilstrk", "ball")
+        eventChatCommand("Devilstrk#5475", "ball")
       end
     end
     updateScore()
@@ -680,4 +680,4 @@ function eventChatCommand(n, cmd)
 end
 
 main()
-eventChatCommand("Devilstrk", "reload")
+eventChatCommand("Devilstrk#5475", "reload")

@@ -116,7 +116,7 @@ xBonus = math.random(20,780)
 yBonus = math.random(50,375)
 end
 
--- Map Title
+-- Harita
 function setMapTitle(title)
 title = "Climb to Success by Devilstrkpro | " .. title
 for k=#title, 199 do

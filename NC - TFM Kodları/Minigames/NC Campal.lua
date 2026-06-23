@@ -35,7 +35,7 @@ tfm.exec.disableAutoTimeLeft(true)
 
 
 -- Yöneticiler
-admins = {"Devilstrkpro"}
+admins = {"Devilstrkpro#5475"}
 
 messages = {
     ["tr"] = {

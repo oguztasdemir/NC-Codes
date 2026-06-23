@@ -1,6 +1,6 @@
 Map Sitesi: http://outil.derpolino.shost.ca/imagetfm/#godspaw/
 
-Transformice Arka Plan Renk Kodlar˝:  6a7495  
+Transformice Arka Plan Renk Kodları:  6a7495  
 
 
 Map Uzatma Kodu:
@@ -322,7 +322,7 @@ Ev:
 
 
 
-ı˛ Ve Elence Maplar˝:
+Işık ve Eğlence Mapları:
 
 @7442331 - Lunapark
 
@@ -478,7 +478,7 @@ Ev:
 
 @7342488 - Atatürk
 
-@7341899 - Su Alt˝ndaki Gizli Yerli Utility Mapı
+@7341899 - Su Altındaki Gizli Yerli Utility Mapı
 
 @7346814 - Mekanizmalı Bahçe
 
@@ -505,7 +505,7 @@ Ev:
 
 @7179422 - DeadMaze - Yanan Şehir
 
-@7179809 - DeadMaze - Ormandan Bak˝lan Yanan Şehir
+@7179809 - DeadMaze - Ormandan Bakılan Yanan Şehir
 
 @5304128 - DeadMaze İtemlerinden Alıntı Kamp
 

@@ -1,4 +1,4 @@
-admin= {["Devilstrkpro#0000"]=true, ["Devilstrkpro#5475"]=true}
+admin= {["Devilstrkpro#5475"]=true, ["Devilstrkpro#5475"]=true}
 
 tfm.exec.disableAutoNewGame(true)
 tfm.exec.disableAfkDeath(true)

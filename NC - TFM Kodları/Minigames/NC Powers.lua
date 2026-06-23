@@ -59,7 +59,7 @@ data={
 	newtimer = 60,
 	-- Ui timer
 	uitimer = 800,
-	-- Help commands
+	-- Yardım
 	help = {
 		m = 3,
 		c1 = "help",
@@ -1506,7 +1506,7 @@ end
 eventNewPlayer=function(n)
 	if not mice[n] then
 		mice[n]={
-			-- Settings
+			-- Ayarlar
 			right = true,
 			health = data.life,
 			showhealthbar = true,
@@ -2024,7 +2024,7 @@ eventTextAreaCallback=function(i,n,c)
 	if p[1] == "@!" then eventChatCommand(n,"p") end
 	if p[1] == "@#" then eventChatCommand(n,"rank") end
 end
-	-- Commands
+	-- Komutlar
 eventChatCommand=function(n,c,m)
 	local p = {}
 	for val in c:gmatch("[^%s]+") do table.insert(p,val) end
